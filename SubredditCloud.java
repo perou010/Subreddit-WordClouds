@@ -4,7 +4,6 @@ import java.util.List;
 public class SubredditCloud{
 
 
-    // need to have a while loop here - keep an eye out
     public static WordCountTree readBook(String filename, WordCountTree ignoreWords){
         WordCountTree wct = new WordCountTree();
         WordIterator wi = new WordIterator(filename);
